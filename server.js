@@ -14,7 +14,7 @@ const port = 3000;
 
 app.all("/{*ruta}", (req, res) => {
     const ruta = `http://localhost:${port}/${req.params.ruta}`;
-    throw new ErrorRecursoNoEncontrado(`Página ruta ${ruta}, no encontrada`);
+    throw new ErrorRecursoNoEncontrado(`Página ruta ${ruta} no encontrada`);
 });
 
 // Middleware de Manejo de Errores Personalizado

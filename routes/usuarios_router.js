@@ -1,6 +1,6 @@
 import express from "express";
 import { listarUsuarios, crearUsuario, actualizarUsuario, eliminarUsuario, buscarUsuario } from "../controlers/usuarios_controller.js";
-import { validarUsuarioMdw } from "../middlewares/validacionMiddleware.js";
+import { validarUsuarioMdw } from "../middlewares/validacion_middleware.js";
 
 export const usuariosRouter = express.Router();
 

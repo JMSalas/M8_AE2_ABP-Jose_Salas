@@ -17,6 +17,6 @@ export class ErrorValidacion extends Error {
 export class ErrorValidacionEspecial extends ErrorValidacion {
     constructor(mensaje) {
         super(mensaje);
-        this.statusCode = 401;
+        this.statusCode = 460;
     }
 }

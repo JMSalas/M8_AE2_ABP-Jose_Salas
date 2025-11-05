@@ -48,8 +48,6 @@ export class UsuariosAdmin {
             // Si la lista está vacía, empezar en 1.
             nuevaID = 1;
         }
-        
-        console.log(usuarios.findIndex((usuario) => usuario.correo == datosUsuario.correo));
 
         if (usuarios.findIndex((usuario) => usuario.correo == datosUsuario.correo) !== -1){
             throw new ErrorValidacion(`Ya existe un usuario con ese correo ${datosUsuario.correo}.`);

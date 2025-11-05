@@ -53,9 +53,8 @@ Esta es la ruta principal para realizar operaciones CRUD sobre la base de datos 
 
 #### **Ejemplo de Petición (POST):**
 
-```json
+```
 POST http://localhost:3000/usuarios
-Content-Type: application/json
 
 {
   "nombre": "Nuevo Usuario Ejemplo",

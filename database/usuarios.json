@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Usuario Uno",
+    "correo": "usuariouno@gmail.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Usuario Dos",
+    "correo": "usuariodos@gmail.com"
+  },
+  {
+    "id": 3,
+    "nombre": "Usuario Tres",
+    "correo": "usuariotres@gmail.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Usuario Cuatro",
+    "correo": "usuariocuatro@gmail.com"
+  },
+  {
+    "id": 5,
+    "nombre": "Usuario Cinco",
+    "correo": "usuariocinco@gmail.com"
+  },
+  {
+    "id": 6,
+    "nombre": "Usuario Seis",
+    "correo": "usuarioseis@gmail.com"
+  },
+  {
+    "id": 7,
+    "nombre": "Usuario Siete",
+    "correo": "usuariosiete@gmail.com"
+  },
+  {
+    "id": 8,
+    "nombre": "Usuario Ocho",
+    "correo": "usuariocho@gmail.com"
+  }
+]

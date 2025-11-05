@@ -56,6 +56,7 @@ Esta es la ruta principal para realizar operaciones CRUD sobre la base de datos 
 ```
 POST http://localhost:3000/usuarios
 
+// Body raw json
 {
   "nombre": "Nuevo Usuario Ejemplo",
   "correo": "ejemplo@test.com"
